@@ -24,5 +24,5 @@ Welcome to **VectorExpressions**! This repository contains a collection of reusa
 
 ## Available Functions
 
-- **kmeanpointsclustering**: Generalized K-means clustering function for any vector attribute.
+- **`kmeanpointsclustering`**: Generalized K-means clustering function for any vector attribute.
 - More functions to come...
