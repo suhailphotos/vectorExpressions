@@ -13,11 +13,11 @@ Welcome to **VectorExpressions**! This repository contains a collection of reusa
    ```sh
    git clone https://github.com/suhailphotos/vectorExpressions.git $HOUDINI_USER_PREF_DIR/vex
    ```
-2.	**Directory Structure: Ensure the include subdirectory within the cloned repository contains all your VEX header files.
+2.	**Directory Structure**: Ensure the include subdirectory within the cloned repository contains all your VEX header files.
    ```sh
    $HOUDINI_USER_PREF_DIR/vex/include
    ```
-3. **Include in Houdini: In your Houdini scripts, include the VEX functions as needed.
+3. **Include in Houdini**: In your Houdini scripts, include the VEX functions as needed.
    ```c
    #include "kmeans.h"
    ```
