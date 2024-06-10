@@ -11,7 +11,7 @@ Welcome to **VectorExpressions**! This repository contains a collection of reusa
 1. **Clone the Repository**: Clone this repository into your Houdini user preference directory.
 
    ```sh
-   git clone https://github.com/yourusername/VectorExpressions.git $HOUDINI_USER_PREF_DIR/vex
+   git clone https://github.com/suhailphotos/vectorExpressions.git $HOUDINI_USER_PREF_DIR/vex
    ```
 2.	**Directory Structure: Ensure the include subdirectory within the cloned repository contains all your VEX header files.
    ```sh
