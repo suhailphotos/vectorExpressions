@@ -1,3 +1,23 @@
+/*
+This VEX code applies a bend transformation to geometry based on a specified rotation axis.
+How to use:
+- When bending along the Y-axis, draw the curve along the X-axis from x = -0.5 to x = 0.5.
+- When bending along the X-axis or Z-axis, draw the curve along the Y-axis from y = -0.5 to y = 0.5.
+
+Usage:
+1. Set the bend radius (`bend_rad`) and bend angle (`bend_ang`) parameters.
+2. Specify the axis of rotation using the `axis` parameter ("x", "y", or "z").
+3. Apply the `curvebend` function to the point attribute `@P`.
+
+Example:
+float bend_rad = chf('bend_rad');
+float bend_ang = chf('bend_ang');
+string axis = chs('axis');
+vector P = @P;
+P = curvebend(P, bend_rad, bend_ang, axis);
+@P = P;
+*/
+
 // Function to apply bend based on a specified rotation axis
 vector apply_bend(vector P; float bend_rad, bend_ang; vector axis_point, rot_axis) {
     P -= axis_point;
@@ -74,4 +94,3 @@ vector curvebend(vector P; float bend_rad, bend_ang; string axis){
     P *= scaling_fac;
     return P;
 }
-
